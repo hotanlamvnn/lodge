@@ -88,7 +88,7 @@ Rails.application.configure do
   # 以下は主にユーザ登録やパスワード忘れの際のメール送信で利用する設定です。
 
   # メールに記載する本サービスのURL
-  config.action_mailer.default_url_options = { :host => 'www.example.com' }
+  config.action_mailer.default_url_options = { :host => 'asiantech-new.herokuapp.com' }
 
   # SMTPの指定
   config.action_mailer.delivery_method = :smtp
@@ -96,6 +96,7 @@ Rails.application.configure do
     :address => 'smtp.sendgrid.net',
     :port => '587',
     :domain => 'heroku.com',
+    :from => 'hotanlam@gmail.com'
     :user_name => 'hotanlam@gmail.com',
     :password => '49768189',
     :authentication => :plain,
