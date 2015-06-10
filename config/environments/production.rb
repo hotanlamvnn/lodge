@@ -104,3 +104,4 @@ Rails.application.configure do
     :authentication       => "plain",
     :enable_starttls_auto => true  }
 end
+ActionMailer::Base.smtp_settings[:enable_starttls_auto] = false
