@@ -96,7 +96,7 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.smtp_settings = {
     address: "smtp.gmail.com",
-    from: "hotanlam@gmail.com"
+    from: "hotanlam@gmail.com",
     port: 587,
     domain: "gmail.com",
     user_name: "hotanlam@gmail.com",
