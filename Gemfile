@@ -60,7 +60,6 @@ gem 'jquery-fileupload-rails', '~> 0.4'
 gem 'qiita-markdown'
 gem "pg"
 gem "rails_12factor"
-gem 'quiet_assets'
 
 group :development do
   gem 'bullet'
